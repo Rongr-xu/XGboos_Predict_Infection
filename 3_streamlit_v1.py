@@ -50,7 +50,7 @@ except FileNotFoundError:
 
 # --- 2. 页面配置 ---
 st.set_page_config(page_title="临床决策支持系统", layout="wide", page_icon="🏥")
-st.title("🏥 基于XGBoost回归的患者感染预测系统")
+st.title("🏥 基于XGBoost的患者感染预测系统")
 
 # --- 3. 创建标签页 (Tabs) ---
 tab1, tab2 = st.tabs(["📝 单例预测 (手动输入)", "📂 批量预测 (上传Excel)"])
