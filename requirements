@@ -1,9 +1,9 @@
 streamlit
+pickle
+joblib
 shap
 scikit-learn
 pandas
 matplotlib
-joblib
 xgboost
-pickle
 numpy
